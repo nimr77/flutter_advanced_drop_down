@@ -1,6 +1,6 @@
 name: flutter_advanced_drop_down
 description: "An advanced and customizable dropdown widget for Flutter applications, offering enhanced functionality and flexibility."
-version: 0.5.0
+version: 0.5.1
 homepage: https://github.com/nimr77/flutter_advanced_drop_down
 
 environment:
