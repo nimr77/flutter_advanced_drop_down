@@ -30,7 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dynamic_drop_down:
+  flutter_advanced_drop_down:
     path: ../
 
 

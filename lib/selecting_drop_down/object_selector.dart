@@ -1,10 +1,11 @@
-import 'package:dynamic_drop_down/selecting_drop_down/selecting_drop_down.dart';
 import 'package:flutter/material.dart';
+
+import 'selecting_drop_down.dart';
 
 /// A widget that allows selecting an object from a list with optional search and add functionality.
 ///
 /// This widget creates a dropdown-like selector with customizable appearance and behavior.
-class DynamicDropdown<T> extends StatelessWidget {
+class FlutterAdvancedDropDown<T> extends StatelessWidget {
   /// Callback function when the add button is tapped.
   final void Function()? onAddTap;
 
@@ -53,12 +54,12 @@ class DynamicDropdown<T> extends StatelessWidget {
   /// Widget to display when loading more items.
   final Widget loadMoreWidgetPlaceHolder;
 
-  /// Creates an [DynamicDropdown] widget.
+  /// Creates an [FlutterAdvancedDropDown] widget.
   ///
   /// The [builder], [onSelect], [searchBarBuilder], [titleWidget], [isLoadingAll],
   /// [listNotifier], [decoration], [isLoadingMore], [fullLoadingWidgetPlaceHolder],
   /// and [loadMoreWidgetPlaceHolder] parameters are required.
-  const DynamicDropdown({
+  const FlutterAdvancedDropDown({
     super.key,
     this.onAddTap,
     this.label = "",

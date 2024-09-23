@@ -1,5 +1,5 @@
-import 'package:dynamic_drop_down/selecting_drop_down/object_selector.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_advanced_drop_down/selecting_drop_down/object_selector.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               'Select an option:',
             ),
-            DynamicDropdown<String>(
+            FlutterAdvancedDropDown<String>(
                 builder: (item, _) => Text(item),
                 onOpen: () {
                   loading.value = true;

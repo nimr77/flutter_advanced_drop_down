@@ -1,6 +1,6 @@
-name: dynamic_drop_down
+name: flutter_advanced_drop_down
 description: "A new Flutter package project."
-version: 0.0.1
+version: 0.5.0
 homepage:
 
 environment:
