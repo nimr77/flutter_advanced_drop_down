@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 const double _kMenuCloseIntervalEnd = 2.0 / 3.0;
 const Duration _kMenuDuration = Duration(milliseconds: 100);
 const double _kMenuScreenPadding = 8.0;
-const double _kMenuWidthStep = 56.0;
+// const double _kMenuWidthStep = 56.0;
 
 /// A stateful widget that keeps its child alive
 class BuilderWidgetAlive extends StatefulWidget {
@@ -149,10 +149,10 @@ class SelectingWidget<T> extends StatelessWidget {
 
   /// Shows the selection menu
   showMenu(BuildContext context) async {
-    final size = MediaQuery.of(context).size;
+    // final size = MediaQuery.of(context).size;
     final width = this.width ?? context.size?.width;
 
-    final PopupMenuThemeData popupMenuTheme = PopupMenuTheme.of(context);
+    // final PopupMenuThemeData popupMenuTheme = PopupMenuTheme.of(context);
     final RenderBox buttonRenderBox = context.findRenderObject()! as RenderBox;
     final RenderBox overlay =
         Navigator.of(context).overlay!.context.findRenderObject()! as RenderBox;
