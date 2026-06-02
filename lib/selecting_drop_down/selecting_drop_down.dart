@@ -218,7 +218,7 @@ class __BoxPageState<T> extends State<_BoxPage<T>> {
         borderRadius: BorderRadius.circular(5),
         boxShadow: [
           BoxShadow(
-              color: Colors.grey.withOpacity(0.2),
+              color: Colors.grey.withValues(alpha: 0.2),
               blurRadius: 10,
               offset: const Offset(0, 10)),
         ],
@@ -270,7 +270,7 @@ class __BoxPageState<T> extends State<_BoxPage<T>> {
                                                 child: InkWell(
                                                     key: ValueKey(index),
                                                     hoverColor: Colors.grey
-                                                        .withOpacity(0.2),
+                                                        .withValues(alpha: 0.2),
                                                     onTap: widget.onSelect ==
                                                             null
                                                         ? null
